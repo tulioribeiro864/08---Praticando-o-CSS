@@ -1,48 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  margin: 40px;
-  text-align: center;
-  font-family: 'Arial', sans-serif;
-  background-color: #f0f8ff;
-}
-
-h1 {
-  color: #1e90ff;
-  font-family: 'Georgia', serif;
-}
-
-p {
-  color: #333;
+  background-color: #f2f2f2;
   font-family: 'Verdana', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin: 40px auto;
+  max-width: 900px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #ffffff;
 }
 
-ul {
-  list-style: square;
-  color: #008000;
-}
-
-img {
-  width: 300px;
-  height: auto;
+nav {
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #004aad;
+  padding: 15px;
   border-radius: 8px;
 }
 
 nav a {
-  margin: 10px;
+  color: #fff;
   text-decoration: none;
-  color: #000;
-  padding: 5px;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background 0.3s, color 0.3s;
+  padding: 8px 12px;
+  border-radius: 4px;
 }
 
 nav a:hover {
-  background-color: #ddd;
-  border-radius: 5px;
+  background-color: #ffffff;
+  color: #004aad;
 }
 
-#destaque {
-  color: red;
+h1 {
+  font-family: 'Georgia', serif;
+  color: #004aad;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Tahoma', sans-serif;
+  color: #006400;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 16px;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .centralizado {
-  margin: auto;
-  width: 80%;
+  text-align: center;
+}
+
+#destaque {
+  color: #d10000;
+  text-transform: uppercase;
+}
+
+a {
+  color: #0066cc;
+}
+
+a:hover {
+  color: #cc0000;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
 }
