@@ -1,0 +1,48 @@
+body {
+  margin: 40px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff;
+}
+
+h1 {
+  color: #1e90ff;
+  font-family: 'Georgia', serif;
+}
+
+p {
+  color: #333;
+  font-family: 'Verdana', sans-serif;
+}
+
+ul {
+  list-style: square;
+  color: #008000;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: #000;
+  padding: 5px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+#destaque {
+  color: red;
+}
+
+.centralizado {
+  margin: auto;
+  width: 80%;
+}
